@@ -2,3 +2,6 @@ baseURL = "https://pendolino.info/"
 languageCode = "en-us"
 title = "Daniel Pendolino"
 theme = "hello-friend-ng"
+
+[params]
+  customCSS = ["css/style.css"]
