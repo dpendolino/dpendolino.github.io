@@ -9,17 +9,17 @@
     <description>Recent content in Posts on dpendolino</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Mar 2022 13:55:02 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 25 Mar 2022 13:54:37 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blah</title>
-      <link>/post/blah/</link>
-      <pubDate>Fri, 25 Mar 2022 13:55:02 -0400</pubDate>
+      <title>2022 03 25</title>
+      <link>/post/2022-03-25/</link>
+      <pubDate>Fri, 25 Mar 2022 13:54:37 -0400</pubDate>
       
-      <guid>/post/blah/</guid>
+      <guid>/post/2022-03-25/</guid>
       <description>
         
           
@@ -28,26 +28,7 @@
         
         
         
-          ahhh
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Hello Friend</title>
-      <link>/post/hello/</link>
-      <pubDate>Wed, 17 Sep 1986 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hello/</guid>
-      <description>
-        
-          &lt;img src=&#34;/img/hello.jpg&#34;/&gt;
-          
-        
-        
-        
-          &#34;Hello, friend?&#34; That&#39;s lame. Maybe I should give you a name?
+          Working on a draft 👍
           
         
         </description>

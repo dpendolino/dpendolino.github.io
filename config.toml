@@ -2,6 +2,10 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "dracula"
+pygmentsUseClasses = false
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -12,11 +16,12 @@ paginate = 5
   showMenuItems = 2
   # Enable to show reading time in minutes for posts
   showReadingTime = false
+  custom_css = ["static/css/dracula.css"]
 
 [languages]
   [languages.en]
     title = "dpendolino"
-    subtitle = "A simple theme for Hugo"
+    subtitle = "Ramblings"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -48,3 +53,7 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archive"
