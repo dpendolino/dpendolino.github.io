@@ -1,0 +1,59 @@
+/* UNUSED COLORS*/
+/*
+Line Highlight { background-color: #ffffcc;}
+Line Number {color: #7f7f7f;}
+KeywordType  .chroma .kt { color: #8be9fd }
+Comment  .chroma .c { color: #6272a4 }
+GenericDeleted  .chroma .gd { color: #ff5555 }
+GenericOutput .chroma .go { color: #44475a }
+*/
+
+
+.dark-theme header {
+    background-color: #282A36;
+    color: #f8f8f2;
+    
+}
+
+body.dark-theme {
+    background-color: #282A36;
+    color: #f8f8f2;
+}
+
+.dark-theme h1,
+.dark-theme .content a {
+    color: #50fa7b
+}
+
+.dark-theme h2,
+.dark-theme h3 {
+    color: #8be9fd;
+    
+}
+.dark-theme h4,
+.dark-theme h5,
+.dark-theme h6 {
+    color: #f1fa8c;
+    
+}
+
+.dark-theme table th {
+    background-color: #6272a4;
+    color: #f8f8f2;
+}
+
+.dark-theme table tr {
+    border-bottom: 2px solid #bd93f9;
+}
+
+.dark-theme hr {
+    border: 0;
+    outline: none;
+    height: 3px;
+    margin: 0 0 20px;
+    background: #50fa7b;
+}
+
+span.logo__cursor {
+    background: #ff79c6;
+}
