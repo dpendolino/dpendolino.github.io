@@ -1,0 +1,187 @@
+/*DARK		LIGHT
+#282A36;	#f8f8f2; 	(header)
+#f8f8f2;	#44475a; 	(header)
+
+#282A36;	#fff;		(body)
+#f8f8f2;	#282A36;	(body)
+	
+#50fa7b;	#38af56;	(h1, a)
+	
+#8be9fd;	#6fbaca;	(h2,h3)	
+#f1fa8c;	#6272a4;	(h4-h6)
+
+#6272a4;	#7f7f7f;	(th bg)
+#f8f8f2;	#f8f8f2;	(th color)
+
+#bd93f9;	#bd93f9;	(td bottom border)
+
+#50fa7b;	#ff79c6;	(hr, bq)
+
+#ff79c6;	#ff79c6; (cursor; same in light and dark)*/
+
+
+
+
+
+
+/* LineHighlight */ not(.dark-theme) .chroma .hl { 
+	background-color: #ffffcc; ???
+}
+
+/* LineNumbers */ 
+not(.dark-theme) .chroma .lnt,
+not(.dark-theme) .chroma .ln { 
+	color: #7f7f7f; ???
+}
+
+/* Keywords */ 
+not(.dark-theme) .chroma .k,
+not(.dark-theme) .chroma .kc,
+not(.dark-theme) .chroma .kn,
+not(.dark-theme) .chroma .kp,
+not(.dark-theme) .chroma .kr,
+not(.dark-theme) .chroma .nt,
+not(.dark-theme) .chroma .o, 
+not(.dark-theme) .chroma .ow,
+not(.dark-theme) .chroma .cp,
+not(.dark-theme) .chroma .cpf { 
+	color: #ff79c6; /*Same light and dark*/
+}
+
+/* KeywordDeclaration */ 
+not(.dark-theme) .chroma .kd,
+not(.dark-theme) .chroma .kt,
+not(.dark-theme) .chroma .nb,
+not(.dark-theme) .chroma .nl,
+not(.dark-theme) .chroma .nv,
+not(.dark-theme) .chroma .vc,
+not(.dark-theme) .chroma .vg,
+not(.dark-theme) .chroma .vi { 
+	color: #8be9fd;	#6fbaca;
+}
+
+/* NameAttribute */ 
+not(.dark-theme) .chroma .na,
+not(.dark-theme) .chroma .nc,
+not(.dark-theme) .chroma .nf,
+not(.dark-theme) .chroma .gi { 
+	color: #50fa7b;  #38af56;
+}
+
+/* LiteralString */ 
+not(.dark-theme) .chroma .s,
+not(.dark-theme) .chroma .sa,
+not(.dark-theme) .chroma .sb,
+not(.dark-theme) .chroma .sc,
+not(.dark-theme) .chroma .dl,
+not(.dark-theme) .chroma .sd,
+not(.dark-theme) .chroma .s2,
+not(.dark-theme) .chroma .se,
+not(.dark-theme) .chroma .sh,
+not(.dark-theme) .chroma .si,
+not(.dark-theme) .chroma .sx,
+not(.dark-theme) .chroma .sr,
+not(.dark-theme) .chroma .s1,
+not(.dark-theme) .chroma .ss { 
+	color: #f1fa8c;#6272a4;
+}
+
+/* LiteralNumber */ 
+not(.dark-theme) .chroma .m,
+not(.dark-theme) .chroma .mb,
+not(.dark-theme) .chroma .mf,
+not(.dark-theme) .chroma .mh,
+not(.dark-theme) .chroma .mi,
+not(.dark-theme) .chroma .il,
+not(.dark-theme) .chroma .mo { 
+	color: #bd93f9; /*same light and dark*/
+}
+
+
+
+/* GenericDeleted */ not(.dark-theme) .chroma .gd { 
+	color: #ff5555; ???
+}
+
+/* GenericOutput */ not(.dark-theme) .chroma .go { 
+	color: #44475a; ???
+}
+
+
+------------------
+
+/**
+ * Dracula Theme originally by Zeno Rocha [@zenorocha]
+ * https://draculatheme.com/
+ *
+ * Ported for PrismJS by Albert Vallverdu [@byverdu]
+ */
+
+:not(.dark-theme) .content code[class*="language-"],
+:not(.dark-theme) .content pre[class*="language-"] {
+	color: #282A36;
+}
+
+not(.dark-theme) :not(pre) > code[class*="language-"],
+not(.dark-theme) pre[class*="language-"] {
+	background-color: #f8f8f2 !important;
+}
+
+not(.dark-theme) .token.comment,
+not(.dark-theme) .token.prolog,
+not(.dark-theme) .token.doctype,
+not(.dark-theme) .token.cdata {
+	color: #7f7f7f;
+}
+
+not(.dark-theme) .token.punctuation {
+	color: #282A36;
+}
+
+not(.dark-theme) .token.property,
+not(.dark-theme) .token.tag,
+not(.dark-theme) .token.constant,
+not(.dark-theme) .token.symbol,
+not(.dark-theme) .token.deleted {
+	color: #ff79c6;
+}
+
+not(.dark-theme) .token.boolean,
+not(.dark-theme) .token.number {
+	color: #bd93f9;
+}
+
+not(.dark-theme) .token.selector,
+not(.dark-theme) .token.attr-name,
+not(.dark-theme) .token.string,
+not(.dark-theme) .token.char,
+not(.dark-theme) .token.builtin,
+not(.dark-theme) .token.inserted {
+	color: #38af56;
+}
+
+not(.dark-theme) .token.operator,
+not(.dark-theme) .token.entity,
+not(.dark-theme) .token.url,
+not(.dark-theme) .language-css .token.string,
+not(.dark-theme) .style .token.string,
+not(.dark-theme) .token.variable {
+	color: #f8f8f2;
+}
+
+not(.dark-theme) .token.atrule,
+not(.dark-theme) .token.attr-value,
+not(.dark-theme) .token.function,
+not(.dark-theme) .token.class-name {
+	color: #6272a4;
+}
+
+not(.dark-theme) .token.keyword {
+	color: #6fbaca;
+}
+
+not(.dark-theme) .token.regex, /*NEED UPDATE*/
+not(.dark-theme) .token.important {
+	color: #ffb86c;
+}
+

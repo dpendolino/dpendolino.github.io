@@ -1,0 +1,139 @@
+/* UNUSED COLORS*/
+/*
+Line Highlight { background-color: #ffffcc;}
+Line Number {color: #7f7f7f;}
+KeywordType  .chroma .kt { color: #8be9fd }
+Comment  .chroma .c { color: #6272a4 }
+GenericDeleted  .chroma .gd { color: #ff5555 }
+GenericOutput .chroma .go { color: #44475a }
+*/
+
+
+.dark-theme header {
+    background-color: #282A36;
+    color: #f8f8f2;
+    
+}
+
+body.dark-theme {
+    background-color: #282A36;
+    color: #f8f8f2;
+}
+
+.dark-theme h1,
+.dark-theme .content a {
+    color: #50fa7b
+}
+
+.dark-theme h2,
+.dark-theme h3 {
+    color: #8be9fd;
+    
+}
+.dark-theme h4,
+.dark-theme h5,
+.dark-theme h6 {
+    color: #f1fa8c;
+    
+}
+
+.dark-theme table th {
+    background-color: #6272a4;
+    color: #f8f8f2;
+}
+
+.dark-theme table td {
+    border-bottom: 2px solid #bd93f9;
+}
+
+.dark-theme hr {
+    border: 0;
+    outline: none;
+    height: 3px;
+    margin: 0 0 20px;
+    background: #50fa7b;
+}
+
+
+.dark-theme blockquote {
+    border-left: 3px solid  #50fa7b;
+}
+
+span.logo__cursor {
+    background: #ff79c6;
+}
+
+/* LIGHT MODE UNUSED COLORS*/
+
+/* Background  .bg { color: #f8f8f2; background-color: #282a36 }
+/* LineHighlight  .chroma .hl { background-color: #ffffcc }
+/* LineNumbersTable  .chroma .lnt { color: #7f7f7f }
+/* Keyword  .chroma .k { color:  }
+/* KeywordType  .chroma .kt { color: #8be9fd }
+/* NameAttribute  .chroma .na { color: #50fa7b }
+/* LiteralString  .chroma .s { color: #f1fa8c }
+/* LiteralNumber  .chroma .m { color: #bd93f9 }
+/* GenericDeleted  .chroma .gd { color: #ff5555 } */
+
+
+.header {
+    background-color: #f8f8f2;
+    color: #44475a;
+    
+}
+
+body {
+    color: #282A36;
+    background-color: #fff;
+}
+
+
+h1,
+.content a {
+    color: #38af56;
+}
+
+h2,
+h3 {
+    color: #6fbaca;}
+
+
+h4,
+h5,
+h6 {
+    color: #6272a4;
+    
+}
+
+table th {
+    background-color: #7f7f7f;
+    color: #f8f8f2;
+    border-left: none;
+    border-right: none
+}
+
+
+.content table td {
+    border: none;
+    border-bottom: 2px solid #bd93f9;
+    border-left: none;
+    border-right: none
+    
+}
+
+table, thead, tbody, table tr {
+    border:none;
+}
+
+hr {
+    border: 0;
+    outline: none;
+    height: 3px;
+    margin: 0 0 20px;
+    background: #ff79c6;
+}
+
+blockquote {
+    border-left: 3px solid  #ff79c6;
+}
+

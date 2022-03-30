@@ -2,10 +2,11 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
-pygmentsCodefences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsStyle = "dracula"
-pygmentsUseClasses = false
+
+#pygmentsCodefences = true
+#pygmentsCodefencesGuessSyntax = true
+#pygmentsStyle = "dracula"
+#pygmentsUseClasses = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -16,7 +17,9 @@ pygmentsUseClasses = false
   showMenuItems = 2
   # Enable to show reading time in minutes for posts
   showReadingTime = false
-  custom_css = ["static/css/dracula.css"]
+  # custom_css = ["static/css/dracula.css"]
+  #customCSS = ["css/style.css"]
+  custom_css = ["css/style.css","css/syntax.css"]
 
 [languages]
   [languages.en]
